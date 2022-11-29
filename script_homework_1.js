@@ -116,7 +116,11 @@ let users = [
     {username: 'giorgi', status: false},
     {username: 'anna', status: true} 
 ]
-    console.log(users[2].username)
+    // console.log(users[2].username)
+    for (let item = 0; item < users.length; item++)
+    if (users[item].status == true){
+        console.log(users[item]);
+    }
 
 }
        
